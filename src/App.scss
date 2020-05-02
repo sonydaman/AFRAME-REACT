@@ -1,0 +1,18 @@
+@import "~bootstrap/scss/bootstrap";
+$theme-colors: (
+    "info": tomato,
+    "primary": #0074d9,
+    "danger": teal
+);
+.Page{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+html.a-fullscreen canvas.a-canvas{
+    position: static !important;
+    width: 80%!important;
+    height: 70%!important;
+  }
